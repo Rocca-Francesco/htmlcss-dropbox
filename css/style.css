@@ -1,9 +1,6 @@
 /* nav */
 
 nav {
-    /* debug */
-    background-color: aqua;
-
     width: 100vw;
     height: 40px;
     justify-content: space-between;
@@ -43,8 +40,30 @@ li {
 
 /* jumbotron */
 
+.jumbotron {
+    background-color: lightblue;
+    max-height: 570px;
+}
+
 h2 {
     text-align: left;
     font-size: 50px;
     font-weight: bolder;
+}
+
+.jumbo-text,
+.jumbo-img {
+    margin-top: 30px;
+}
+
+.jumbo-text {
+    flex-direction: column;
+    width: 55%;
+    text-align: left;
+}
+
+.btn-blue.prova {
+    width: fit-content;
+    font-size: 15px;
+    margin: 20px 0px;
 }
