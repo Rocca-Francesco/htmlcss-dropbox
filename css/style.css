@@ -43,9 +43,10 @@ li {
 .jumbotron {
     background-color: lightblue;
     max-height: 570px;
+    margin-bottom: 100px;
 }
 
-h2 {
+h1 {
     text-align: left;
     font-size: 50px;
     font-weight: bolder;
@@ -66,4 +67,46 @@ h2 {
     width: fit-content;
     font-size: 15px;
     margin: 20px 0px;
+}
+
+/* offerta annuale/mensile */
+
+h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.tipo-fatturazione {
+    align-items: center;
+}
+
+.check-bal {
+    width: 5px;
+    height: 5px;
+    border: 5px solid blue;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.tipo-fatturazione>span {
+    margin-right: 30px;
+}
+
+/* cards */
+
+.cards {
+    max-width: calc(100% / 3 - 40px);
+    border: 1px solid black;
+}
+
+.offerta,
+.nome-offerta,
+.punti-salienti {
+    flex-direction: column;
+}
+
+.tipo-offerta {
+    text-align: center;
 }
