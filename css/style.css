@@ -151,3 +151,33 @@ h2 {
 .punti-salienti {
     margin-bottom: 20px;
 }
+
+/* card big */
+
+.card-big {
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.cbig-content {
+    justify-content: space-between;
+}
+
+.cbig-text {
+    width: calc(100% / 3 * 2);
+    margin-left: 24px;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.btn-blue.prova.cbig-btn {
+    margin-top: 20px;
+    margin-right: 24px;
+    display: inline-block;
+}
+
+.text>p {
+    line-height: 70px;
+}
