@@ -205,3 +205,19 @@ h1 {
     color: black;
     border: 1px solid black;
 }
+
+/* operzioni business */
+
+.operazioni {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operazioni-cards {
+    width: calc(100% / 3 - 40px);
+    margin-bottom: 100px;
+}
+
+.operazioni-cards>p {
+    font-size: 14px;
+}
