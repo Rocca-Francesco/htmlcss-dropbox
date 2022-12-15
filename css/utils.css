@@ -19,3 +19,11 @@
 	max-width: 1000px;
 	margin: 0 auto;
 }
+
+.titoli-sections {
+	font-weight: bold;
+	line-height: 30px;
+	margin-top: 10px;
+}
+
+/* card big */

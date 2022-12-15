@@ -80,6 +80,7 @@ h2 {
 
 .tipo-fatturazione {
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .check-bal {
@@ -94,12 +95,18 @@ h2 {
     margin-right: 30px;
 }
 
-/* cards */
+/* CARDS */
 
 .cards {
+    justify-content: space-between;
+}
+
+.offerta {
     max-width: calc(100% / 3 - 40px);
     border: 1px solid black;
 }
+
+/* caratteristiche cards singole */
 
 .offerta,
 .nome-offerta,
@@ -109,4 +116,38 @@ h2 {
 
 .tipo-offerta {
     text-align: center;
+    line-height: 5px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.cards-content {
+    margin: 0px 24px;
+}
+
+.cards-bold {
+    font-weight: bold;
+}
+
+.cards-grey {
+    color: grey;
+}
+
+.tipo-offerta,
+.nome-offerta,
+.punti-salienti {
+    font-size: 12px;
+}
+
+.nome-offerta>span,
+.punti-salienti>span {
+    margin: 5px 0;
+}
+
+.nome-offerta {
+    margin-bottom: 20px;
+}
+
+.punti-salienti {
+    margin-bottom: 20px;
 }
