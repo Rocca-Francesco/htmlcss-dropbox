@@ -20,8 +20,15 @@
 	margin: 0 auto;
 }
 
+.titoli-2nd {
+	text-align: left;
+	font-size: 30px;
+	font-weight: bolder;
+	margin: 20px 0;
+}
+
 .titoli-sections {
+	font-size: 17px;
 	font-weight: bold;
-	line-height: 30px;
-	margin-top: 10px;
+	margin: 15px 0;
 }

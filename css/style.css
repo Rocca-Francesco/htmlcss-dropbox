@@ -71,13 +71,6 @@ h1 {
 
 /* offerta annuale/mensile */
 
-h2 {
-    text-align: left;
-    font-size: 30px;
-    font-weight: bolder;
-    margin: 20px 0;
-}
-
 .tipo-fatturazione {
     align-items: center;
     margin-bottom: 30px;
@@ -180,4 +173,35 @@ h2 {
 
 .text>p {
     line-height: 70px;
+}
+
+
+/* articolo contatto */
+
+.articolo-contatto {
+    margin: 100px 0;
+}
+
+.articolo-pic {
+    width: calc(100% / 3 * 2);
+}
+
+.articolo-pic img {
+    object-fit: cover;
+}
+
+.articolo-text {
+    width: calc(100% / 3);
+    padding: 40px 30px 0 30px;
+}
+
+.articolo-text>p {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.btn-blue.prova.btn-white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
