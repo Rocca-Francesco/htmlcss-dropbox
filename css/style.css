@@ -215,9 +215,49 @@ h1 {
 
 .operazioni-cards {
     width: calc(100% / 3 - 40px);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .operazioni-cards>p {
     font-size: 14px;
+}
+
+/* titolo clienti */
+
+.titolo-clienti {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#link-clienti {
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+/* sponsorizzazioni */
+
+.squared {
+    width: calc(100vw / 3);
+}
+
+.sponsor-loghi {
+    width: 50%;
+    height: calc(100vw / 3 / 2);
+
+    /* debug */
+    background-color: black;
+}
+
+.sponsor-loghi>img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+.squared.d-flex {
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.sponsor-loghi>img {
+    align-self: center;
 }
