@@ -273,3 +273,48 @@ h1 {
     font-size: 14px;
     margin: 30px;
 }
+
+/* porta */
+
+.porta {
+    background-color: lightblue;
+    margin-bottom: 60px;
+}
+
+.titoli-2nd.red {
+    color: red;
+}
+
+.square-blu {
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.square-blu div>.btn-white {
+    display: inline-block;
+    align-items: center;
+}
+
+/* domande frequenti */
+
+.question {
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+h4 {
+    font-weight: bold;
+    display: inline-block;
+}
+
+.arrow-down {
+    margin: 0px 10px;
+}
+
+.question-list:last-child {
+    margin-bottom: 60px;
+}
+
+/* footer */
