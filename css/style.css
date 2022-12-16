@@ -179,10 +179,23 @@ h1 {
     margin-top: 20px;
 } */
 
-#mgtop {
+.mgtop {
     margin-top: 30px;
 }
 
+/* cards loghi */
+/* 
+.user-logo::before {
+    content: "<i class=" fa-solid fa-user"></i>";
+}
+
+.folder-logo::before {
+    content: "<i class=" fa-solid fa-folder"></i>";
+}
+
+.share-logo::before {
+    <i class="fa-solid fa-share-nodes"></i>
+} */
 
 /* card big */
 
