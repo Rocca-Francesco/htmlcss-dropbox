@@ -71,8 +71,9 @@ h1 {
 }
 
 #arrow {
-    display: inline-block;
-    align-self: flex-end;
+    margin-top: auto;
+    margin-bottom: 50px;
+    font-size: 50px;
 }
 
 /* offerta annuale/mensile */
