@@ -7,6 +7,7 @@ nav {
     width: 100vw;
     height: 50px;
     justify-content: space-between;
+    border-bottom: 1px solid #d9d9dc;
 }
 
 nav>div,
@@ -26,6 +27,13 @@ nav>div img {
     margin: 10px;
 }
 
+.li-nav>a {
+    display: inline-block;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
 .btn-blue {
     background-color: #0061ff;
     color: white;
@@ -34,6 +42,12 @@ nav>div img {
     margin: 10px;
     margin-left: 0;
     padding: 4px 9px;
+}
+
+/* bonus nav */
+
+.li-nav>a:hover {
+    box-shadow: 0px 2px #0061ff;
 }
 
 /* jumbotron */
@@ -46,6 +60,7 @@ nav>div img {
 }
 
 h1 {
+    margin-top: 50px;
     text-align: left;
     font-size: 50px;
     font-weight: bolder;
@@ -74,6 +89,7 @@ h1 {
     margin-top: auto;
     margin-bottom: 50px;
     font-size: 50px;
+    color: black;
 }
 
 /* offerta annuale/mensile */
@@ -198,7 +214,7 @@ h1 {
 
 /* articolo contatto */
 
-.articolo-contatto {
+#articolo-contatto {
     margin: 100px 0;
 }
 
