@@ -1,8 +1,11 @@
 /* nav */
 
 nav {
+    position: fixed;
+    z-index: 1;
+    background-color: white;
     width: 100vw;
-    height: 40px;
+    height: 50px;
     justify-content: space-between;
 }
 
@@ -19,17 +22,15 @@ nav>div img {
 
 
 .li-nav {
-    font-size: 10px;
+    font-size: 12px;
     margin: 10px;
 }
 
 .btn-blue {
-    /* debug */
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
-
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     margin: 10px;
     margin-left: 0;
     padding: 4px 9px;
@@ -38,8 +39,9 @@ nav>div img {
 /* jumbotron */
 
 .jumbotron {
-    background-color: lightblue;
-    max-height: 570px;
+    padding-top: 50px;
+    background-color: #b4d0e7;
+    max-height: 620px;
     margin-bottom: 100px;
 }
 
@@ -49,8 +51,7 @@ h1 {
     font-weight: bolder;
 }
 
-.jumbo-text,
-.jumbo-img {
+.jumbo-text {
     margin-top: 30px;
 }
 
@@ -60,10 +61,18 @@ h1 {
     text-align: left;
 }
 
-.btn-blue.prova {
-    width: fit-content;
-    font-size: 15px;
-    margin: 20px 0px;
+#btn-jumbo {
+    font-size: 14px;
+}
+
+.jumbo-img {
+    position: relative;
+    top: 30px;
+}
+
+#arrow {
+    display: inline-block;
+    align-self: flex-end;
 }
 
 /* offerta annuale/mensile */
@@ -74,9 +83,9 @@ h1 {
 }
 
 .check-bal {
-    width: 5px;
-    height: 5px;
-    border: 5px solid blue;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #d9d9dc;
     border-radius: 50%;
     margin: 3px;
 }
@@ -93,7 +102,7 @@ h1 {
 
 .offerta {
     max-width: calc(100% / 3 - 40px);
-    border: 1px solid black;
+    border: 1px solid #dcdcde;
 }
 
 /* caratteristiche cards singole */
@@ -108,7 +117,7 @@ h1 {
     text-align: center;
     line-height: 5px;
     padding: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dcdcde;
 }
 
 .cards-content {
@@ -142,11 +151,20 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* .nome-offerta:nth-child(3) {
+    margin-top: 20px;
+} */
+
+#mgtop {
+    margin-top: 30px;
+}
+
+
 /* card big */
 
 .card-big {
     margin-top: 30px;
-    border: 1px solid black;
+    border: 1px solid #dcdcde;
 }
 
 .cbig-content {
@@ -160,6 +178,10 @@ h1 {
 
 .text {
     font-size: 12px;
+}
+
+.cbig-right {
+    margin-right: 10px;
 }
 
 .btn-blue.prova.cbig-btn {
@@ -228,7 +250,7 @@ h1 {
 
 #link-clienti {
     display: inline-block;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 /* sponsorizzazioni */
@@ -244,21 +266,52 @@ h1 {
     height: calc(100vw / 3 / 2);
     justify-content: center;
     align-items: center;
-
-    /* debug */
-    background-color: black;
 }
-
 
 .sponsor-loghi>img {
     width: 50%;
     filter: invert(100%);
 }
 
+/* colori square partners */
+
+#designit {
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+#arizona_state_university {
+    background-color: #61082b;
+}
+
+#university_of_florida {
+    background-color: #0093ce;
+}
+
+#topps {
+    background-color: #ff1c1c;
+}
+
+#world_bicycle_relief {
+    background-color: #d5001f;
+}
+
+#hearst_corp {
+    background-color: #b4d0e7;
+}
+
+#lonely_planet {
+    background-color: #0d2481;
+}
+
+#clear_channel {
+    background-color: #ffd830;
+}
+
 /* quadrato centrale */
 
 .s-big {
-    background-color: grey;
+    background-color: #f5f5f5;
 }
 
 .s-big-pic {
@@ -274,31 +327,32 @@ h1 {
 /* porta */
 
 .porta {
-    background-color: lightblue;
+    background-color: #b4d0e7;
     margin-bottom: 60px;
 }
 
 .titoli-2nd.red {
-    color: red;
+    color: #610b30;
 }
 
 .square-blu {
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 60px 0;
 }
 
-.square-blu div>.btn-white {
+#btn-porta {
     display: inline-block;
-    align-items: center;
+    border: none;
+    padding: 7px 30px;
 }
 
 /* domande frequenti */
 
 .question {
     justify-content: space-between;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 10px 0;
+    border-top: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+    padding: 25px 0;
 }
 
 h4 {
@@ -327,17 +381,36 @@ footer {
 
 .sezioni {
     width: calc(100% / 5);
-    display: inline-block;
-    flex-direction: column;
-    margin: 30px 0px;
+    margin: 50px 0px;
 }
 
 h5 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .ul-footer {
     font-size: 12px;
+}
+
+.li-footer {
+    line-height: 25px;
+    color: #cbdbcb;
+
+}
+
+.ul-footer:last-child {
+    margin-bottom: ;
+}
+
+.hrow.hfooter {
+    width: 90px;
+}
+
+#lenguage {
+    font-size: 12px;
+    text-align: left;
+    color: #999997;
+    padding: 30px 0px;
 }

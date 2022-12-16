@@ -36,3 +36,24 @@
 div>ul {
 	list-style: none;
 }
+
+.btn-blue.prova {
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	margin: 20px 0px;
+	padding: 10px;
+}
+
+
+.hrow {
+	height: 1px;
+	background-color: #dcdcde;
+	width: 40px;
+	margin: 20px 0px;
+}
+
+/* utils fontawesome */
+.fa-solid.fa-check {
+	color: #0061ff;
+}
